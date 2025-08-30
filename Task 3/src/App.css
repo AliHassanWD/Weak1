@@ -1,0 +1,31 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#faqouter {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  max-width: 600px;   
+  margin: 0 auto;     
+}
+
+
+#faqinner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+h2{
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  #faqinner {
+    flex-direction: column;   
+    align-items: flex-start; 
+  }
+
+  #faqinner button {
+    align-self: flex-end;     
+  }
+}
